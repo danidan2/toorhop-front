@@ -1,0 +1,83 @@
+$font_path: '~@/assets/fonts/';
+
+@font-face {
+  font-family: 'Graphik Web';
+  src: url($font_path + 'Graphik-BoldItalic-Web.eot');
+  src: url($font_path + 'Graphik-BoldItalic-Web.eot?#iefix') format('embedded-opentype'),
+       url($font_path + 'Graphik-BoldItalic-Web.woff2') format('woff2'),
+       url($font_path + 'Graphik-BoldItalic-Web.woff') format('woff');
+  font-weight:  700;
+  font-style:   italic;
+}
+
+@font-face {
+  font-family: 'Graphik Web';
+  src: url($font_path + 'Graphik-Bold-Web.eot');
+  src: url($font_path + 'Graphik-Bold-Web.eot?#iefix') format('embedded-opentype'),
+       url($font_path + 'Graphik-Bold-Web.woff2') format('woff2'),
+       url($font_path + 'Graphik-Bold-Web.woff') format('woff');
+  font-weight:  700;
+  font-style:   normal;
+}
+
+@font-face {
+  font-family: 'Graphik Web'; /*Graphik LC Web*/
+  src: url($font_path + 'Graphik-RegularItalic-Web.eot');
+  src: url($font_path + 'Graphik-RegularItalic-Web.eot?#iefix') format('embedded-opentype'),
+       url($font_path + 'Graphik-RegularItalic-Web.woff2') format('woff2'),
+       url($font_path + 'Graphik-RegularItalic-Web.woff') format('woff');
+  font-weight:  400;
+  font-style:   italic;
+}
+
+@font-face {
+  font-family: 'Graphik Web'; /*Graphik LC Web*/
+  src: url($font_path + 'Graphik-Regular-Web.eot');
+  src: url($font_path + 'Graphik-Regular-Web.eot?#iefix') format('embedded-opentype'),
+       url($font_path + 'Graphik-Regular-Web.woff2') format('woff2'),
+       url($font_path + 'Graphik-Regular-Web.woff') format('woff');
+  font-weight:  400;
+  font-style:   normal;
+}
+
+@font-face {
+  font-family: 'Graphik Web';
+  src: url($font_path + 'Graphik-Medium-Web.eot');
+  src: url($font_path + 'Graphik-Medium-Web.eot?#iefix') format('embedded-opentype'),
+       url($font_path + 'Graphik-Medium-Web.woff2') format('woff2'),
+       url($font_path + 'Graphik-Medium-Web.woff') format('woff');
+  font-weight:  500;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.Graphik-Medium-Web {
+  font-family: 'Graphik Web';
+  font-weight:  500;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.Graphik-Regular-Web {
+  font-family: 'Graphik Web'; /*Graphik LC Web*/
+  font-weight:  400;
+  font-style:   normal;
+}
+
+.Graphik-RegularItalic-Web {
+  font-family: 'Graphik Web'; /*Graphik LC Web*/
+  font-weight:  400;
+  font-style:   italic;
+}
+
+.Graphik-Bold-Web {
+  font-family: 'Graphik Web';
+  font-weight:  700;
+  font-style:   normal;
+}
+
+.Graphik-BoldItalic-Web {
+  font-family: 'Graphik Web';
+  font-weight:  700;
+  font-style:   italic;
+}

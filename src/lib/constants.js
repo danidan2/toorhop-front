@@ -1,0 +1,5 @@
+// export const MIDTRANS_PAYMENT_URL = 'http://localhost:4444/api/dev-v1'
+export const MIDTRANS_PAYMENT_URL = 'https://midtrans.toorhop.com/api/dev-v1'
+// export const MIDTRANS_PAYMENT_URL = 'https://midtrans.toorhop.com//api/v1'
+export const CLIENT_KEY = 'LFgQNUYugaRy'
+export const CLIENT_SECRET = '63124939efecaefa67b2e22cd09881b49e748f2b'
